@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Musicly - Music Bands and Musicians HTML5 Template</title>
+    <title>Musical Community</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.svg in the root directory -->
@@ -131,7 +131,7 @@
                                             <a href="#"><img src="assets/img/header/singer.png" alt="singer"></a>
                                         </div>
                                         <div class="ms-header2-singer-text">
-                                            <h4><a href="genres-details.html">Lazy Soul</a></h4>
+                                            <h4><a href="genres_details.php">Lazy Soul</a></h4>
                                             <div class="jp-title"></div>
                                         </div>
                                     </div>
