@@ -35,14 +35,7 @@
 		   <div class="bd-theme-settings">
 			  <div class="bd-theme-settings-wrapper">
 				 <div class="bd-theme-settings-open">
-					<button class="bd-theme-settings-open-btn">
-					   <span class="bd-theme-settings-gear">
-						  <i class="fa-light fa-gear"></i>
-					   </span>
-					   <span class="bd-theme-settings-close">
-						  <i class="fa-regular fa-xmark"></i>
-					   </span>
-					</button>
+					
 				 </div>
 				 <div class="row row-cols-4 gy-2 gx-2">
 					<div class="col">

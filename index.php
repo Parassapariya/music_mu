@@ -483,7 +483,6 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $99</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/07.jpg"
@@ -508,7 +507,6 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $119</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/08.jpg"
@@ -533,7 +531,6 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $55</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/02.jpg"
