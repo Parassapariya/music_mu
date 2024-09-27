@@ -76,7 +76,14 @@
                                 <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
                             </span>
                             <div class="user__name-mail">
-                                <h4 class="user__name"><a href="javascript:void(0)">Johnson</a></h4>
+                                <h4 class="user__name"><a href="javascript:void(0)"><?php
+                                if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                                   echo $_SESSION['username'];
+                                } else {
+                                   echo "No Login";
+                                }
+                                
+                                ?></a></h4>
                                 <p class="user__mail"><a href="https://html.topylo.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="68020700061b0706281f0d0a05090104460b0705">[email&#160;protected]</a></p>
                             </div>
                         </div>
@@ -205,95 +212,23 @@
                                     <li>
                                         <a href="about.php">About us</a>
                                     </li>
-                                    <li>
-                                        <a href="explore.php">Explore</a>
+                                    <li class="has-dropdown">
+                                        <a href="#">Explore</a>
+                                        <ul class="submenu">
+                                            <li><a href="explore.php">Albums</a></li>
+                                            <li><a href="song.php">Song</a></li>
+                                            <li><a href="playlist.php">Playlist</a></li>
+                                        </ul>
                                     </li>
+                                    
                                     <li>
                                         <a href="event.php">Event</a>
                                     </li>
                                     <li>
                                         <a href="Collaboration.php">Collaboration</a>
                                     </li>
-                                    <!-- <li class="has-dropdown has-mega-menu">
-                                        <a href="javascript:void(0)">Pages</a>
-
-                                        <ul class="mega-menu">
-                                            <li>
-                                                <a href="javasript:void(0);" class="mega-menu-title">Page
-                                                    Layout
-                                                    1</a>
-                                                <ul>
-                                                    <li><a href="index.html">Home Style 01</a></li>
-                                                    <li><a href="index-2.html">Home Style 02</a></li>
-                                                    <li><a href="index-3.html">Home Style 03</a></li>
-                                                    <li><a href="index-rtl.html">Home Style 01 RTL</a>
-                                                    </li>
-                                                    <li><a href="index-2-rtl.html">Home Style 02 RTL</a>
-                                                    </li>
-                                                    <li><a href="index-3-rtl.html">Home Style 03 RTL</a>
-                                                    </li>
-                                                    <li><a href="about.html">About</a></li>
-
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="javasript:void(0);" class="mega-menu-title">Page
-                                                    Layout
-                                                    2</a>
-                                                <ul>
-                                                    <li><a href="genres.html">genres</a></li>
-                                                    <li><a href="genres-details.html">genres details</a>
-                                                    </li>
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="team-details.html">team details</a>
-                                                    </li>
-                                                    <li><a href="enquiry-list.html">enquiry list</a>
-                                                    </li>
-                                                    <li><a href="work-system.html">how it works</a></li>
-                                                    <li><a href="faq.html">FAQ</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="javasript:void(0);" class="mega-menu-title">Page
-                                                    Layout
-                                                    3</a>
-                                                <ul>
-                                                    <li><a href="event.html">event</a></li>
-                                                    <li><a href="event-details.html">event details</a>
-                                                    </li>
-                                                    <li><a href="ideas-advice.html">ideas advice</a>
-                                                    </li>
-                                                    <li><a href="ideas-advice-details.html">ideas advice
-                                                            details</a></li>
-                                                    <li><a href="news.html">blog</a></li>
-                                                    <li><a href="news-details.html">blog details</a>
-                                                    </li>
-                                                    <li><a href="join.html">Join Us</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="javasript:void(0);" class="mega-menu-title">Page
-                                                    Layout
-                                                    4</a>
-                                                <ul>
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop
-                                                            Details</a></li>
-                                                    <li><a href="cart.html">cart</a></li>
-                                                    <li><a href="wishlist.html">wishlist</a></li>
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="signup.html">Register</a></li>
-                                                    <li><a href="contact.html">contact</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    <li class="has-dropdown">
-                                        <a href="news.html">Blog</a>
-                                        <ul class="submenu">
-                                            <li><a href="news.html">Blog</a></li>
-                                            <li><a href="news-details.html">Blog details</a></li>
-                                        </ul>
-                                    </li> -->
+                                      
+                                  
                                     <li>
                                         <a href="contact.php"> Help Center</a>
                                     </li>

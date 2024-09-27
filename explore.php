@@ -12,7 +12,7 @@ include "header.php";
                         <div class="row justify-content-center">
                             <div class="col-xxl-10">
                                 <div class="ms-about-content text-center">
-                                    <h2 class="ms-title2 white-text mb-30">Most popular genres
+                                    <h2 class="ms-title2 white-text mb-30">Most popular Albums
                                     </h2>
                                     <p class="capitalize mb-65">
                                         Our collection of award-winning Popular bands for hire perform
@@ -23,7 +23,7 @@ include "header.php";
                                         best
                                         bands book up early!
                                     </p>
-                                    <div class="ms-genres-search">
+                                    <!-- <div class="ms-genres-search">
                                         <div class="ms-banner__form two">
                                             <form action="#">
                                                 <div class="ms-banner__from-inner two ms-bg-2">
@@ -64,7 +64,7 @@ include "header.php";
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-01.jpg" alt="genres img">
+                                                <img src="assets/img/artis/arijit.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -133,18 +133,12 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Different
-                                                    Lights</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres-details.html">Arijit Singh</a></h4>
+                                            <p class="mb-30">Arijit Singh is an Indian playback singer known for his heartfelt and romantic songs.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
+                                                            class="flaticon-pin"></i> West Bengal</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -162,7 +156,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-02.jpg" alt="genres img">
+                                                <img src="assets/img/artis/arrehman.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -170,18 +164,13 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star active"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sweet
-                                                    lockdown</a>
+                                            <h4 class="ms-genres-title"><a href="genres-details.html">AR Rahman</a>
                                             </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <p class="mb-30">A R Rahman, born as A. S. Dileep Kumar on January 6, 1967, in Chennai, Tamil Nadu, is a name that resonates with musical brilliance across the globe.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Chicago</a>
+                                                            class="flaticon-pin"></i>Tamil Nadu</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -199,7 +188,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-03.jpg" alt="genres img">
+                                                <img src="assets/img/artis/badssha.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -207,18 +196,12 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sonics
-                                                    Corporate
-                                                    Band</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres-details.html">Badshah</a></h4>
+                                            <p class="mb-30">Badshah’s real name is Aditya Prateek Singh Sisodia, and he is an Indian rapper, singer, songwriter, and producer. </p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Trenton</a>
+                                                            class="flaticon-pin"></i>Punjab</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -236,7 +219,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-04.jpg" alt="genres img">
+                                                <img src="assets/img/artis/pritam.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -244,18 +227,12 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Northern
-                                                    Lights</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres-details.html">Pritam</a></h4>
+                                            <p class="mb-30">Pritam Chakraborty known mononymously as Pritam, is an Indian composer, instrumentalist, guitarist, music producer and singer from Kolkata, India.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Georgia</a>
+                                                            class="flaticon-pin"></i>Kolkata</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -273,7 +250,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-05.jpg" alt="genres img">
+                                                <img src="assets/img/artis/sonunigam.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -281,17 +258,12 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">Last
-                                                    Orders</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres_details.html">Sonu Nigam</a></h4>
+                                            <p class="mb-30">There have been innumerous Bollywood singers who have made the audience smile and cry at the same time. </p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Concord</a>
+                                                            class="flaticon-pin"></i>Haryana</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -309,7 +281,7 @@ include "header.php";
                                     <div class="ms-genres-item ms-genres-flex mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
                                             <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-06.jpg" alt="genres img">
+                                                <img src="assets/img/artis/diljit.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
@@ -317,19 +289,13 @@ include "header.php";
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sweet
-                                                    The
-                                                    Jets</a>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Diljit Dosanjh</a>
                                             </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <p class="mb-30"> Diljit has garnered immense popularity and acclaim through his music and acting skills.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>NYE City</a>
+                                                            class="flaticon-pin"></i>Panjab</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -385,28 +351,21 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-01.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/arijit.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Different
-                                                    Lights</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Arijit Singh</a></h4>
+                                            <p class="mb-30">Arijit Singh is an Indian playback singer known for his heartfelt and romantic songs.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
+                                                            class="flaticon-pin"></i>West Bengal</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -423,28 +382,22 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-02.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/arrehman.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $49</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star active"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sweet
-                                                    lockdown</a>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">AR Rahman</a>
                                             </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <p class="mb-30">A R Rahman is a name with musical brilliance across the globe.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Chicago</a>
+                                                            class="flaticon-pin"></i>Tamil Nadu</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -461,28 +414,21 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-03.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/badssha.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sonics
-                                                    Corporate
-                                                    Band</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Badshah</a></h4>
+                                            <p class="mb-30">Badshah’s real name is Aditya Prateek Singh Sisodia, and he is an Indian rapper and producer. </p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Trenton</a>
+                                                            class="flaticon-pin"></i>Punjab</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -499,28 +445,21 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-04.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/pritam.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $59</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Northern
-                                                    Lights</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Pritam</a></h4>
+                                            <p class="mb-30">Pritam Chakraborty known mononymously as Pritam, is  instrumentalist, guitarist.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Georgia</a>
+                                                            class="flaticon-pin"></i>Kolkata</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -537,27 +476,21 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-05.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/sonunigam.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $78</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">Last
-                                                    Orders</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Sonu Nigam</a></h4>
+                                            <p class="mb-30">There have been innumerous Bollywood singers who have smile and cry at the same time.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Concord</a>
+                                                            class="flaticon-pin"></i>Haryana</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -574,29 +507,22 @@ include "header.php";
                                 <div class="col-xl-4 col-lg-6">
                                     <div class="ms-genres-item mb-25">
                                         <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-06.jpg" alt="genres img">
+                                            <a href="genres_details.php">
+                                                <img src="assets/img/artis/diljit.webp" alt="genres img">
                                             </a>
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $100</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sweet
-                                                    The
-                                                    Jets</a>
+                                            <h4 class="ms-genres-title"><a href="genres_details.php">Diljit Dosanjh</a>
                                             </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
+                                            <p class="mb-30"> Diljit has garnered immense popularity and acclaim through his music and acting skills.</p>
                                             <div class="ms-fun-brand-bottom ms-genres-rating">
                                                 <div class="ms-fun-brand-location">
                                                     <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>NYE City</a>
+                                                            class="flaticon-pin"></i>Panjab</a>
                                                 </div>
                                                 <div class="ms-fun-brand-rating">
                                                     <i class="flaticon-star"></i>
@@ -610,122 +536,7 @@ include "header.php";
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-lg-6">
-                                    <div class="ms-genres-item mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-07.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Super
-                                                    Rollers</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(100)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6">
-                                    <div class="ms-genres-item mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-08.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $129</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Overloads
-                                                    music</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Thailand</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(69)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-6">
-                                    <div class="ms-genres-item mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img mb-30">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-09.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $140</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Audiotones
-                                                    vive</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(85)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
