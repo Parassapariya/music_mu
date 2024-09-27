@@ -43,25 +43,7 @@ include "header.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ms-event3-item mb-25">
-                                    <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/event/event-01.jpg"
-                                                alt="event image"></a>
-                                        <span class="ms-event3-date">MAR <br>02</span>
-                                        <div class="ms-event3-content">
-                                            <div class="ms-event3-location-wrap">
-                                                <a href="#" class="ms-event3-location"><i class="flaticon-pin"></i>
-                                                    Ohio</a>
-                                            </div>
-                                            <h3 class="ms-event3-title ms-title-border"><a href="event-details.html">We
-                                                    are a group of artists, musicians, producers, DJ's,
-                                                    inventors,
-                                                    engineers, activists,</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
@@ -143,66 +125,7 @@ include "header.php";
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ms-event3-item mb-25">
-                                    <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/event/event-02.jpg"
-                                                alt="event image"></a>
-                                        <span class="ms-event3-date">MAR <br>21</span>
-                                        <div class="ms-event3-content">
-                                            <div class="ms-event3-location-wrap">
-                                                <a href="#" class="ms-event3-location"><i class="flaticon-pin"></i>
-                                                    Thailand</a>
-                                            </div>
-                                            <h3 class="ms-event3-title ms-title-border"><a href="event-details.html">If
-                                                    you would like to hear more,
-                                                    please
-                                                    feel free to give us a call... or better yet, hire.</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ms-event3-item mb-25">
-                                    <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/event/event-bg-2.png"
-                                                alt="event image"></a>
-                                        <span class="ms-event3-date">MAR <br>21</span>
-                                        <div class="ms-event3-content">
-                                            <div class="ms-event3-location-wrap">
-                                                <a href="#" class="ms-event3-location"><i class="flaticon-pin"></i>
-                                                    City Club</a>
-                                            </div>
-                                            <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">ourselves a lucky group of people,
-                                                    to
-                                                    share this experience together.</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6">
-                                <div class="ms-event3-item mb-25">
-                                    <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/event/event-03.jpg"
-                                                alt="event image"></a>
-                                        <span class="ms-event3-date">MAR <br>24</span>
-                                        <div class="ms-event3-content">
-                                            <div class="ms-event3-location-wrap">
-                                                <a href="#" class="ms-event3-location"><i class="flaticon-pin"></i>
-                                                    Pakistan</a>
-                                            </div>
-                                            <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">rapport and access to skill,
-                                                    knowledge
-                                                    and raw talent that exists here. We hope to share.</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="row">

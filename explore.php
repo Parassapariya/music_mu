@@ -130,7 +130,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>

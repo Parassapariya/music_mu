@@ -405,7 +405,7 @@ include "header.php";
         <!-- work area end -->
 
         <!-- team area start here  -->
-        <section class="ms-team-area ms-bg-2 pt-125 pb-90">
+        <!-- <section class="ms-team-area ms-bg-2 pt-125 pb-90">
             <div class="container">
                 <div class="row justify-content-center mb-25 bdFadeUp">
                     <div class="col-xl-6">
@@ -523,7 +523,7 @@ include "header.php";
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- team area end here  -->
 
         <!-- FAQ area start -->
