@@ -1,6 +1,56 @@
 <?php
 include "header.php";    
 ?>
+
+
+
+<?php
+$songs = [
+    [
+        "number" => "01",
+        "image" => "assets/img/brand-song/01.png",
+        "title" => "Arcade Fire",
+        "description" => "Canadian rock group"
+    ],
+    [
+        "number" => "02",
+        "image" => "assets/img/brand-song/02.png",
+        "title" => "Beastie Boys",
+        "description" => "American hip-hop"
+    ],
+    [
+        "number" => "03",
+        "image" => "assets/img/brand-song/03.png",
+        "title" => "Blondie",
+        "description" => "American rock group"
+    ],
+    [
+        "number" => "04",
+        "image" => "assets/img/brand-song/04.png",
+        "title" => "Black Sabbath",
+        "description" => "British rock group"
+    ],
+    [
+        "number" => "05",
+        "image" => "assets/img/brand-song/05.png",
+        "title" => "Boy II Men",
+        "description" => "Hong Kong Folk"
+    ],
+    [
+        "number" => "06",
+        "image" => "assets/img/brand-song/06.png",
+        "title" => "The Coasters",
+        "description" => "Canada band group"
+    ],
+    [
+        "number" => "07",
+        "image" => "assets/img/brand-song/07.png",
+        "title" => "The Flamingos",
+        "description" => "Chicago rock group"
+    ]
+];
+
+?>
     <main>
 
 
@@ -29,14 +79,15 @@ include "header.php";
                 <div class="row justify-content-center">
                     <div class="col-xxl-10">
                         <div class="ms-find-musician-wrap">
-                            <h2 class="ms-find-musician-title mb-65 text-center bd-title-anim">Welcome to the Musician Community: Connect, Collaborate, Create! <span
-                                    class="ms-text-gradient1">band</span>
-                                <span class="ms-color-1">or</span> <span class="ms-text-gradient2">musician</span> for
-                                <br>
-                                your wed ding or
-                                party
-                            </h2>
-                            <div class="ms-banner__form two bdFadeUp">
+                        <h2 class="ms-find-musician-title mb-65 text-center bd-title-anim">
+    Welcome to the Musician: 
+    <span class="ms-text-gradient1">Connect </span>
+    <span class="ms-color-1">or</span> 
+    <span class="ms-text-gradient2">Collaborate</span>, 
+    <br>
+    <span class="ms-text-gradient1">Create!</span>
+</h2>
+ <div class="ms-banner__form two bdFadeUp">
                                 <form action="#">
                                     <div class="ms-banner__from-inner two ms-bg-2">
                                         <div class="ms-banner__form-select ms-nice-select">
@@ -85,113 +136,33 @@ include "header.php";
 
         <!-- Brand Song Area Start Here  -->
         <section class="ms-song-area pb-130">
-            <div class="container">
-                <div class="ms-song-border pt-65 pb-65 bdFadeUp">
-                    <div class="swiper-container ms-song2-active fix">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/01.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">01</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">Arcade Fire</a>
-                                        </h3>
-                                        <span class="ms-song-text">Canadian rock group</span>
-                                    </div>
-                                </div>
+    <div class="container">
+        <div class="ms-song-border pt-65 pb-65 bdFadeUp">
+            <div class="swiper-container ms-song2-active fix">
+                <div class="swiper-wrapper">
+                    <?php foreach ($songs as $song): ?>
+                    <div class="swiper-slide">
+                        <div class="ms-song-item">
+                            <div class="ms-song-img p-relative">
+                                <a href="genres-details.html">
+                                    <img src="<?php echo $song['image']; ?>" alt="brand-song">
+                                </a>
+                                <span class="ms-song-num"><?php echo $song['number']; ?></span>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/02.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">02</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">Beastie Boys</a>
-                                        </h3>
-                                        <span class="ms-song-text">American hip-hop</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/03.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">03</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">Blondie</a></h3>
-                                        <span class="ms-song-text">American rock group</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/04.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">04</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">Black
-                                                Sabbath</a></h3>
-                                        <span class="ms-song-text">British rock group</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/05.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">05</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">Boy II Men</a>
-                                        </h3>
-                                        <span class="ms-song-text">Hong Kong Folk</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/06.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">06</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">The Coasters</a>
-                                        </h3>
-                                        <span class="ms-song-text">Canada band group</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="ms-song-item">
-                                    <div class="ms-song-img p-relative">
-                                        <a href="genres-details.html"><img src="assets/img/brand-song/07.png"
-                                                alt="brand-song"></a>
-                                        <span class="ms-song-num">07</span>
-                                    </div>
-                                    <div class="ms-song-content">
-                                        <h3 class="ms-song-title"><a href="genres-details.html">The
-                                                Flamingos</a></h3>
-                                        <span class="ms-song-text">Chicago rock group</span>
-                                    </div>
-                                </div>
+                            <div class="ms-song-content">
+                                <h3 class="ms-song-title">
+                                    <a href="genres-details.html"><?php echo $song['title']; ?></a>
+                                </h3>
+                                <span class="ms-song-text"><?php echo $song['description']; ?></span>
                             </div>
                         </div>
                     </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
-        </section>
-        <!-- Brand Song Area End Here  -->
+        </div>
+    </div>
+</section> <!-- Brand Song Area End Here  -->
 
         <!-- work area start -->
         <section class="work__area ms-bg-2 pt-130 pb-60 p-relative">
@@ -483,6 +454,7 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
+                                    <span>From $99</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/07.jpg"
@@ -507,6 +479,7 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
+                                    <span>From $119</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/08.jpg"
@@ -531,6 +504,7 @@ include "header.php";
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
+                                    <span>From $55</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/02.jpg"
