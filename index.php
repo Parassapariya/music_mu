@@ -29,7 +29,7 @@ include "header.php";
                 <div class="row justify-content-center">
                     <div class="col-xxl-10">
                         <div class="ms-find-musician-wrap">
-                            <h2 class="ms-find-musician-title mb-65 text-center bd-title-anim">Hire a live <span
+                            <h2 class="ms-find-musician-title mb-65 text-center bd-title-anim">Welcome to the Musician Community: Connect, Collaborate, Create! <span
                                     class="ms-text-gradient1">band</span>
                                 <span class="ms-color-1">or</span> <span class="ms-text-gradient2">musician</span> for
                                 <br>
