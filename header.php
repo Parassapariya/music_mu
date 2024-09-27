@@ -90,17 +90,7 @@
                     <div class="hr-1 mt-30 mb-30 d-xl-block"></div>
                     <div class="mobile-menu2 fix mb-30  d-xl-block"></div>
                     <div class="hr-1 mt-30 mb-30 d-xl-block"></div>
-                    <div class="offcanvas__btn mb-30">
-                        <a class="ms-border-btn" href="services.html"><i class="fa-solid fa-plus"></i> List Your
-                            Service</a>
-                    </div>
-                    <div class="offcanvas__social">
-                        <div class="ms-footer-social mb-0">
-                            <a href="https://www.linkedin.com/" title="Instagram" target="_blank">IN</a>
-                            <a href="https://twitter.com/" title="Twitter" target="_blank">TW</a>
-                            <a href="https://www.facebook.com/" title="Facebook" target="_blank">FB</a>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -198,10 +188,7 @@
                                 <span class="ms-dot-menu-text">Menu</span>
                             </div>
                         </div>
-                        <div class="ms-header2-services ml-65">
-                            <a class="ms-border-btn" href="services.html"><i class="fa-solid fa-plus"></i> List Your
-                                Service</a>
-                        </div>
+                        
                         <div class="ms-header2-profile ml-20">
                             <a class="ms-profile-btn" href="login.php"><i class="flaticon-user"></i></a>
                         </div>

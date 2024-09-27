@@ -100,25 +100,25 @@ $songs = [
                                                 <option value="5">Solo Musicians</option>
                                             </select>
                                         </div>
-                                        <div class="ms-banner__form-select ms-nice-select">
-                                            <select>
+                                        <div >
+                                            <!-- <select>
                                                 <option value="1" selected disabled>When is your
                                                     event?</option>
                                                 <option value="2">This Week</option>
                                                 <option value="3">Next Week</option>
                                                 <option value="4">This Month</option>
                                                 <option value="4">Next Month</option>
-                                            </select>
+                                            </select> -->
                                         </div>
-                                        <div class="ms-banner__form-select ms-nice-select ms-border-none">
-                                            <select>
+                                        <div >
+                                            <!-- <select>
                                                 <option value="1" selected disabled>Where is your
                                                     event?</option>
                                                 <option value="2">In Apartment</option>
                                                 <option value="3">In a Hall</option>
                                                 <option value="3">In a Resort</option>
                                                 <option value="3">In an Open Field</option>
-                                            </select>
+                                            </select> -->
                                         </div>
                                         <div class="banner__form-button">
                                             <button class="ms-white-bg"><i class="flaticon-loupe"></i> Find
@@ -184,7 +184,7 @@ $songs = [
                     </div>
                     <div class="col-lg-4">
                         <div class="trending-btn mb-40 d-flex justify-content-lg-end">
-                            <a class="border__btn zindex-5" href="genres.html">View All Genres</a>
+                            <a class="border__btn zindex-5" href="explore.html">View All Genres</a>
                         </div>
                     </div>
                 </div>
@@ -195,12 +195,11 @@ $songs = [
                         <div class="swiper-slide">
                             <div class="ms-trending2-item fix">
                                 <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
+                                <span class="trending__title">GLORY</span>
                                 <div class="trending__price">
-                                    <span>From $99</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/07.jpg"
+                                    <a href="genres_details.php"><img src="assets/img/album/maxresdefault.jpg"
                                             alt="trending image"></a>
                                 </div>
                                 <div class="ms-trending2-content">
@@ -222,7 +221,6 @@ $songs = [
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $119</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/08.jpg"
@@ -247,7 +245,6 @@ $songs = [
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $55</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/02.jpg"
@@ -272,7 +269,6 @@ $songs = [
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $90</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/10.jpg"
@@ -297,7 +293,6 @@ $songs = [
                                 <div class="ms-trending2-overlay p-absolute"></div>
                                 <span class="trending__title">Musicly</span>
                                 <div class="trending__price">
-                                    <span>From $90</span>
                                 </div>
                                 <div class="ms-trending2-img w-img">
                                     <a href="genres-details.html"><img src="assets/img/trending/11.jpg"
@@ -317,131 +312,7 @@ $songs = [
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
-                                <div class="trending__price">
-                                    <span>From $99</span>
-                                </div>
-                                <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/07.jpg"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="assets/img/trending/trending-shape.png" alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="genres-details.html">Party bands for
-                                            hire</a>
-                                        <a class="ms-round-btn popup-image" href="assets/img/trending/07.jpg"><i
-                                                class="flaticon-right-arrow-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
-                                <div class="trending__price">
-                                    <span>From $119</span>
-                                </div>
-                                <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/08.jpg"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="assets/img/trending/trending-shape.png" alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="genres-details.html">Party bands for
-                                            hire</a>
-                                        <a class="ms-round-btn popup-image" href="assets/img/trending/08.jpg"><i
-                                                class="flaticon-right-arrow-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
-                                <div class="trending__price">
-                                    <span>From $55</span>
-                                </div>
-                                <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/02.jpg"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="assets/img/trending/trending-shape.png" alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="genres-details.html">Party bands for
-                                            hire</a>
-                                        <a class="ms-round-btn popup-image" href="assets/img/trending/02.jpg"><i
-                                                class="flaticon-right-arrow-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
-                                <div class="trending__price">
-                                    <span>From $90</span>
-                                </div>
-                                <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/10.jpg"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="assets/img/trending/trending-shape.png" alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="genres-details.html">Party bands for
-                                            hire</a>
-                                        <a class="ms-round-btn popup-image" href="assets/img/trending/10.jpg"><i
-                                                class="flaticon-right-arrow-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="ms-trending2-item fix">
-                                <div class="ms-trending2-overlay p-absolute"></div>
-                                <span class="trending__title">Musicly</span>
-                                <div class="trending__price">
-                                    <span>From $90</span>
-                                </div>
-                                <div class="ms-trending2-img w-img">
-                                    <a href="genres-details.html"><img src="assets/img/trending/11.jpg"
-                                            alt="trending image"></a>
-                                </div>
-                                <div class="ms-trending2-content">
-                                    <div class="ms-trending2-shape">
-                                        <img src="assets/img/trending/trending-shape.png" alt="trending shape">
-                                    </div>
-                                    <div class="ms-trending2-title-wrap">
-                                        <a class="ms-trending2-title p-relative ms-title-border"
-                                            href="genres-details.html">Party bands for
-                                            hire</a>
-                                        <a class="ms-round-btn popup-image" href="assets/img/trending/11.jpg"><i
-                                                class="flaticon-right-arrow-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -456,7 +327,7 @@ $songs = [
                         <div class="section__title-wrapper mb-65 text-center bd-title-anim">
                             <span class="section__subtitle">Function Bands</span>
                             <h2 class="section__title">
-                                our <span class="animated-underline active">most popular function</span> bands
+                                our <span class="animated-underline active">most popular </span> artists
                             </h2>
                         </div>
                     </div>
@@ -465,19 +336,19 @@ $songs = [
                     <div class="ms-fun-brand-item ms-fun-border">
                         <div class="ms-fun-brand-top mb-20">
                             <div class="ms-fun-brand-thumb">
-                                <a href="genres-details.html"><img src="assets/img/function-brand/function-brand-01.png"
+                                <a href="genres_details.php"><img src="assets/img/artis/arijit.webp"
                                         alt="function brand"></a>
                             </div>
                             <div class="ms-fun-brand-content">
-                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Beastie Boys</a>
+                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Arijit Singh</a>
                                 </h3>
-                                <span class="ms-fun-brand-subtitle">American hip-hop</span>
+                                <span class="ms-fun-brand-subtitle">Singer</span>
                             </div>
                         </div>
                         <div class="ms-fun-brand-bottom">
                             <div class="ms-fun-brand-location">
                                 <a href="https://www.google.com/maps" target="_blank"> <i
-                                        class="flaticon-pin"></i>Ohio</a>
+                                        class="flaticon-pin"></i>West Bengal</a>
                             </div>
                             <div class="ms-fun-brand-rating">
                                 <i class="flaticon-star"></i>
@@ -492,19 +363,19 @@ $songs = [
                     <div class="ms-fun-brand-item ms-fun-border">
                         <div class="ms-fun-brand-top mb-20">
                             <div class="ms-fun-brand-thumb">
-                                <a href="genres-details.html"><img src="assets/img/function-brand/function-brand-01.png"
+                                <a href="genres_details.php"><img src="assets/img/artis/arrehman.webp"
                                         alt="function brand"></a>
                             </div>
                             <div class="ms-fun-brand-content">
-                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Beastie Boys</a>
+                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">AR Rahman</a>
                                 </h3>
-                                <span class="ms-fun-brand-subtitle">American hip-hop</span>
+                                <span class="ms-fun-brand-subtitle">indian hip-hop</span>
                             </div>
                         </div>
                         <div class="ms-fun-brand-bottom">
                             <div class="ms-fun-brand-location">
                                 <a href="https://www.google.com/maps" target="_blank"> <i
-                                        class="flaticon-pin"></i>Ohio</a>
+                                        class="flaticon-pin"></i>Tamil Nadu</a>
                             </div>
                             <div class="ms-fun-brand-rating">
                                 <i class="flaticon-star"></i>
@@ -518,11 +389,11 @@ $songs = [
                     <div class="ms-fun-brand-item ms-fun-border">
                         <div class="ms-fun-brand-top mb-20">
                             <div class="ms-fun-brand-thumb">
-                                <a href="genres-details.html"><img src="assets/img/function-brand/function-brand-05.png"
+                                <a href="genres-details.html"><img src="assets/img/artis/badssha.webp"
                                         alt="function brand"></a>
                             </div>
                             <div class="ms-fun-brand-content">
-                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Beastie Boys</a>
+                                <h3 class="ms-fun-brand-title"><a href="genres_details.php">Badshah</a>
                                 </h3>
                                 <span class="ms-fun-brand-subtitle">American hip-hop</span>
                             </div>
@@ -530,7 +401,7 @@ $songs = [
                         <div class="ms-fun-brand-bottom">
                             <div class="ms-fun-brand-location">
                                 <a href="https://www.google.com/maps" target="_blank"> <i
-                                        class="flaticon-pin"></i>Georgia</a>
+                                        class="flaticon-pin"></i>Delhi </a>
                             </div>
                             <div class="ms-fun-brand-rating">
                                 <i class="flaticon-star"></i>
@@ -544,18 +415,17 @@ $songs = [
                     <div class="ms-fun-brand-item ms-fun-border">
                         <div class="ms-fun-brand-top mb-20">
                             <div class="ms-fun-brand-thumb">
-                                <a href="genres-details.html"><img src="assets/img/function-brand/function-brand-06.png"
+                                <a href="genres_details.php"><img src="assets/img/artis/pritam.webp"
                                         alt="function brand"></a>
                             </div>
                             <div class="ms-fun-brand-content">
-                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Blondie</a></h3>
-                                <span class="ms-fun-brand-subtitle">American rock group</span>
+                                <h3 class="ms-fun-brand-title"><a href="genres-details.html">Pritam</a></h3>
+                                <span class="ms-fun-brand-subtitle">indian romentic music</span>
                             </div>
                         </div>
                         <div class="ms-fun-brand-bottom">
                             <div class="ms-fun-brand-location">
-                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-pin"></i>City
-                                    Club</a>
+                                <a href="https://www.google.com/maps" target="_blank"> <i class="flaticon-pin"></i>Pune</a>
                             </div>
                             <div class="ms-fun-brand-rating">
                                 <i class="flaticon-star"></i>
@@ -571,42 +441,7 @@ $songs = [
         </section>
         <!-- Function Brand Area End Here  -->
 
-        <!-- Download App Area Start Here  -->
-        <!-- <section class="ms-app-area fix pb-70">
-            <div class="container">
-                <div class="row align-items-center bdFadeUp">
-                    <div class="col-xl-6">
-                        <div class="ms-app-left mb-45">
-                            <div class="section__title-wrapper mb-40 bd-title-anim">
-                                <span class="section__subtitle">Download Musicly</span>
-                                <h2 class="section__title">Best way to <span class="animated-underline active">Hire to
-                                        Musician</span>
-                                </h2>
-                            </div>
-                            <p class="ms-app-text mb-65">Our hand-picked acts will guarantee you fantastic
-                                wedding
-                                entertainment for
-                                each part. We'll
-                                provide help and support 24
-                                hours a day, 7 days a week, right up until</p>
-                            <div class="ms-app-inner ms-app-list ms-app-opacity">
-                                <a href="#" target="_blank"><img src="assets/img/cta/app-store.png" alt="app store"></a>
-                                <a href="#" class="active" target="_blank"><img src="assets/img/cta/amazonmusic.png"
-                                        alt="amazon music"></a>
-                                <a href="#" target="_blank"><img src="assets/img/cta/play-store.png"
-                                        alt="play store"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="ms-app-right m-img mb-60">
-                            <img src="assets/img/bg/app-cricle-bg.png" alt="app circle">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Download App Area Start Here -->
+      
 
         <!-- Event Area Start Here  -->
         <section class="ms-event2-area include__bg zindex-1 p-relative pt-140 pb-105"

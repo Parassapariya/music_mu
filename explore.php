@@ -167,7 +167,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $49</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star active"><i class="fa-light fa-star"></i></span>
@@ -205,7 +204,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
@@ -243,7 +241,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $59</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
@@ -281,7 +278,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $78</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
@@ -318,7 +314,6 @@ include "header.php";
                                             <a class="popup-video ms-genres-video"
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $100</span>
                                         </div>
                                         <div class="ms-genres-content p-relative">
                                             <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
@@ -348,313 +343,8 @@ include "header.php";
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-07.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Super
-                                                    Rollers</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(100)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-08.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $129</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Overloads
-                                                    music</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Thailand</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(69)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-09.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $140</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Audiotones
-                                                    vive</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(85)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-10.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $150</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Outta
-                                                    Sights</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Chicago</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(168)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/genres/genres-05.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $78</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">Last
-                                                    Orders</a></h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Concord</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(60)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-06.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $100</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Sweet
-                                                    The
-                                                    Jets</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>NYE City</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(90)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-07.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $99</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The Super
-                                                    Rollers</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Ohio</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(100)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres-details.html">
-                                                <img src="assets/img/genres/genres-08.jpg" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                            <span class="ms-genres-price">From $129</span>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres-details.html">The
-                                                    Overloads
-                                                    music</a>
-                                            </h4>
-                                            <p class="mb-30">Outstanding wedding band playing chart, indie, rock
-                                                anthems and
-                                                Britpop
-                                                and featuring
-                                                guitars, keyboards.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Thailand</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(69)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
+                              
+
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
