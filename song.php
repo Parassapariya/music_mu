@@ -12,7 +12,7 @@ include "header.php";
                         <div class="row justify-content-center">
                             <div class="col-xxl-10">
                                 <div class="ms-about-content text-center">
-                                    <h2 class="ms-title2 white-text mb-30">Most popular genres
+                                    <h2 class="ms-title2 white-text mb-30">Most popular Songs
                                     </h2>
                                     <p class="capitalize mb-65">
                                         Our collection of award-winning Popular bands for hire perform

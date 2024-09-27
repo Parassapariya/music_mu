@@ -125,10 +125,9 @@
                                 <div class="jp-type-playlist">
                                     <div class="ms-header2-singer">
                                         <div class="ms-header2-singer-img">
-                                            <a href="#"><img src="assets/img/header/singer.png" alt="singer"></a>
+                                            <a href="#"><img src="assets/img/header/diljit.webp" alt="singer"></a>
                                         </div>
                                         <div class="ms-header2-singer-text">
-                                            <h4><a href="genres_details.php">Lazy Soul</a></h4>
                                             <div class="jp-title"></div>
                                         </div>
                                     </div>
