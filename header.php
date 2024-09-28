@@ -4,7 +4,6 @@
 <?php
 session_start();
 ?>
-<!-- Mirrored from html.topylo.com/musicly-prev/musicly/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 05:46:07 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -31,9 +30,7 @@ session_start();
 
 <body>
 
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
+ 
 
     <div class="mouseCursor cursor-outer"></div>
     <div class="mouseCursor cursor-inner"><span>Drag</span></div>
@@ -41,6 +38,7 @@ session_start();
     <!-- Preloader start -->
     <div id="preloader">
         <div class="line-loader">
+            <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
@@ -272,7 +270,7 @@ session_start();
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="ms-product-modal-wrapper p-relative">
-                        <button type="button" class="ms-model-close ms-pclose-btn "><i
+                        <button type="button" class="ms-model2-close ms-pclose-btn "><i
                                 class="fa-sharp fa-solid fa-xmark"></i></button>
 
                         <div class="container" style="margin-top:100px ;">
