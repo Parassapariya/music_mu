@@ -1,6 +1,25 @@
 <?php
 include "header.php";
 ?>
+<style>
+     
+
+        /* Change background color on hover */
+        .hover-div:hover {
+            color: white;
+        }
+
+        .visible-span {
+            display: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Make span visible on hover */
+        .hover-div:hover .visible-span {
+            display: inline;
+        }
+    </style>
 <div class="ms-all-content ms-content-mobile-space pt-125">
         <main>
             <!-- About Area Start Here  -->
@@ -102,17 +121,7 @@ include "header.php";
                                             </span>
                                         </button>
                                     </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                            data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                            aria-controls="profile-tab-pane" aria-selected="false">
-                                            <span class="ms-genres-tab-bar">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </span>
-                                        </button>
-                                    </li>
+                                        
                                 </ul>
                             </div>
                         </div>
@@ -131,24 +140,11 @@ include "header.php";
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
                                         </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
+                                        <div class="ms-genres-content p-relative hover-div">
+                                            <span class=" visible-span ms-genres-star active"><i class="fa-light fa fa-play"></i></span>
                                             <h4 class="ms-genres-title"><a href="genres-details.html">Arijit Singh</a></h4>
                                             <p class="mb-30">Arijit Singh is an Indian playback singer known for his heartfelt and romantic songs.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i> West Bengal</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(85)</span>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -162,25 +158,12 @@ include "header.php";
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
                                         </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star active"><i class="fa-light fa-star"></i></span>
+                                        <div class="ms-genres-content p-relative hover-div">
+                                            <span class=" visible-span ms-genres-star active"><i class="fa-light fa fa-play"></i></span>
                                             <h4 class="ms-genres-title"><a href="genres-details.html">AR Rahman</a>
                                             </h4>
                                             <p class="mb-30">A R Rahman, born as A. S. Dileep Kumar on January 6, 1967, in Chennai, Tamil Nadu, is a name that resonates with musical brilliance across the globe.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Tamil Nadu</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(120)</span>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -194,24 +177,11 @@ include "header.php";
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
                                         </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
+                                        <div class="ms-genres-content p-relative  hover-div">
+                                            <span class="visible-span ms-genres-star active"><i class="fa-light fa-star"></i></span>
                                             <h4 class="ms-genres-title"><a href="genres-details.html">Badshah</a></h4>
                                             <p class="mb-30">Badshah’s real name is Aditya Prateek Singh Sisodia, and he is an Indian rapper, singer, songwriter, and producer. </p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Punjab</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(90)</span>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -225,90 +195,14 @@ include "header.php";
                                                 href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
                                                     class="fa-sharp fa-solid fa-play"></i></a>
                                         </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
+                                        <div class="ms-genres-content p-relative  hover-div">
+                                            <span class="visible-span ms-genres-star active"><i class="fa-light fa-star"></i></span>
                                             <h4 class="ms-genres-title"><a href="genres-details.html">Pritam</a></h4>
                                             <p class="mb-30">Pritam Chakraborty known mononymously as Pritam, is an Indian composer, instrumentalist, guitarist, music producer and singer from Kolkata, India.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Kolkata</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(30)</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            
                                     </div>
                                 </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/artis/sonunigam.webp" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres_details.html">Sonu Nigam</a></h4>
-                                            <p class="mb-30">There have been innumerous Bollywood singers who have made the audience smile and cry at the same time. </p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Haryana</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <span>(60)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="ms-genres-item ms-genres-flex mb-25">
-                                        <div class="ms-genres-img ms-br-15 fix w-img genres-img-214">
-                                            <a href="genres_details.php">
-                                                <img src="assets/img/artis/diljit.webp" alt="genres img">
-                                            </a>
-                                            <a class="popup-video ms-genres-video"
-                                                href="https://www.youtube.com/watch?v=Rf9flQISwok"><i
-                                                    class="fa-sharp fa-solid fa-play"></i></a>
-                                        </div>
-                                        <div class="ms-genres-content p-relative">
-                                            <span class="ms-genres-star"><i class="fa-light fa-star"></i></span>
-                                            <h4 class="ms-genres-title"><a href="genres_details.php">Diljit Dosanjh</a>
-                                            </h4>
-                                            <p class="mb-30"> Diljit has garnered immense popularity and acclaim through his music and acting skills.</p>
-                                            <div class="ms-fun-brand-bottom ms-genres-rating">
-                                                <div class="ms-fun-brand-location">
-                                                    <a href="https://www.google.com/maps" target="_blank"> <i
-                                                            class="flaticon-pin"></i>Panjab</a>
-                                                </div>
-                                                <div class="ms-fun-brand-rating">
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star"></i>
-                                                    <i class="flaticon-star unrate"></i>
-                                                    <span>(90)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                               
 
                             </div>
