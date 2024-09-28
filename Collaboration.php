@@ -37,13 +37,13 @@ include "header.php";
                                         <div class="col-lg-6">
                                             <div class="ms-input-box style-2">
                                                 <label>First Name</label>
-                                                <input type="text" placeholder="NIck Jonas">
+                                                <input type="text" placeholder="NIck Jonas" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="ms-input-box style-2">
                                                 <label>Last Name</label>
-                                                <input type="text" placeholder="Haiden">
+                                                <input type="text" placeholder="Haiden" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-6">

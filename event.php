@@ -5,7 +5,7 @@ include "header.php";
         <main>
             <!-- page title area start  -->
             <section class="page-title-area page-title-spacing p-relative zindex-1 "
-                data-background="assets/img/event/event-bg-4.jpg">
+                data-background="assets/img/event/event-testimonial-bg.png">
                 <div class="ms-overlay ms-overlay9 p-absolute zindex--1"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -25,7 +25,7 @@ include "header.php";
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/genres/genres-08.jpg"
+                                        <a href="#"><img src="assets/img/genres/genres-08.jpg"
                                                 alt="event image"></a>
                                         <span class="ms-event3-date">FEB <br>28</span>
                                         <div class="ms-event3-content">
@@ -34,7 +34,7 @@ include "header.php";
                                                     Chicago</a>
                                             </div>
                                             <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">Jennifer Lopez
+                                                    href="#">Jennifer Lopez
                                                     admits
                                                     ending first engagement
                                                     to Ben Affleck
@@ -47,7 +47,7 @@ include "header.php";
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/genres/genres-07.jpg"
+                                        <a href="#"><img src="assets/img/genres/genres-07.jpg"
                                                 alt="event image"></a>
                                         <span class="ms-event3-date">MAR <br>04</span>
                                         <div class="ms-event3-content">
@@ -56,7 +56,7 @@ include "header.php";
                                                     Trenton</a>
                                             </div>
                                             <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">abilities to perform, create,
+                                                    href="#">abilities to perform, create,
                                                     design,
                                                     organize, track and manage different details along the
                                                     way</a>
@@ -68,7 +68,7 @@ include "header.php";
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/genres/genres-01.jpg"
+                                        <a href="#"><img src="assets/img/genres/genres-01.jpg"
                                                 alt="event image"></a>
                                         <span class="ms-event3-date">MAR <br>05</span>
                                         <div class="ms-event3-content">
@@ -77,7 +77,7 @@ include "header.php";
                                                     Georgia</a>
                                             </div>
                                             <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">Justin Ancheta, the founder of
+                                                    href="#">Justin Ancheta, the founder of
                                                     Soul
                                                     Graffiti is a musician, activist, teacher,
                                                     environmentalist</a>
@@ -89,7 +89,7 @@ include "header.php";
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/genres/genres-02.jpg"
+                                        <a href="#"><img src="assets/img/artis/arijit.webp"
                                                 alt="event image"></a>
                                         <span class="ms-event3-date">MAR <br>08</span>
                                         <div class="ms-event3-content">
@@ -98,7 +98,7 @@ include "header.php";
                                                     Concord</a>
                                             </div>
                                             <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">spent much of his life committed
+                                                    href="#">spent much of his life committed
                                                     to
                                                     weaving together and connecting communities in the bay</a>
                                             </h3>
@@ -109,7 +109,7 @@ include "header.php";
                             <div class="col-xl-4 col-md-6">
                                 <div class="ms-event3-item mb-25">
                                     <div class="ms-event3-img ms-overlay10 fix ms-br-15 p-relative zindex-10">
-                                        <a href="event-details.html"><img src="assets/img/genres/genres-10.jpg"
+                                        <a href="#"><img src="assets/img/artis/ar.webp"
                                                 alt="event image"></a>
                                         <span class="ms-event3-date">MAR <br>13</span>
                                         <div class="ms-event3-content">
@@ -118,7 +118,7 @@ include "header.php";
                                                     NYE City</a>
                                             </div>
                                             <h3 class="ms-event3-title ms-title-border"><a
-                                                    href="event-details.html">There are too many other people to
+                                                    href="#">There are too many other people to
                                                     name who have inspired and breathe life into supporting</a>
                                             </h3>
                                         </div>

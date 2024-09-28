@@ -18,7 +18,7 @@ include "header.php";
             <!-- Genres Area Start Here  -->
             <section class="ms-genres-area pt-130 pb-70">
                 <div class="background-contain">
-                <div class="container">
+                <div class="container" data-background="assets/img/bg/text-scroll-bg.png">
                     <div class="row justify-content-center">
                         <div class="col-xl-7">
                             <div class="ms-genres-top text-center mb-50">
@@ -51,7 +51,7 @@ include "header.php";
                 </div>
                 </div>
                 
-                <div class="ms-genres-shape include__bg" data-background="assets/img/genres/genres-shape.png">
+                <div class="ms-genres-shape include__bg" data-background="assets/img/bg/sound-bg.png">
                     <div class="container">
                         <div class="ms-genres-img p-relative ms-br-15 m-img fix mb-65">
                             <img src="assets/img/genres/genres-bg.jpg" alt="genres image">

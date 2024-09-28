@@ -21,18 +21,18 @@ include "header.php";
             <!-- login Area Start Here  -->
             <section class="ms-login-area pb-50 pt-130">
                 <div class="container">
-                    <div class="ms-maxw-510 mx-auto">
+                    <div class="mx-auto" style="max-width: 810px;">
                         <div class="ms-login-wrap text-center ms-login-space ms-bg-2">
                             <h3 class="ms-title4 mb-50">Welcome Again</h3>
                             <form action="logindatacheck.php" method="post">
                                 <div class="ms-input2-box mb-25">
-                                    <input type="email" name="email" placeholder="Email">
+                                    <input type="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="ms-input2-box mb-50">
-                                    <input type="password" name="password" placeholder="Password">
+                                    <input type="password" name="password" placeholder="Password" required>
                                 </div>
                                 <div class="ms-submit-btn mb-40">
-                                    <button class="unfill__btn d-block w-100" type="submit">Log in</button>
+                                    <input class="unfill__btn d-block w-100" type="submit" placeholder="Log in">
                                 </div>
                                 <div class="ms-divided-btn mb-45">
                                     <span>or</span>

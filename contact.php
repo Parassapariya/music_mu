@@ -71,7 +71,7 @@ include "header.php";
                             <div class="ms-contact-img-wrap mb-70 d-inline-block p-relative">
                                 <div class="ms-contact-img m-img ms-br-15 fix p-relative zindex-1">
                                     <div class="ms-overlay ms-overlay11"></div>
-                                    <img src="assets/img/news/news-07.jpg" alt="banner image">
+                                    <img src="assets/img/news/news-01.png" alt="banner image">
                                 </div>
                                 <div class="ms-contact-content text-center">
                                     <div class="ms-round-icon mx-auto mb-20">
@@ -90,9 +90,9 @@ include "header.php";
 
 
             <!-- Contact Map Area Start Here  -->
-            <section class="ms-contact-map-area">
+            <!-- <section class="ms-contact-map-area">
                 <div class="ms-contact-img w-img">
-                    <img class="mh-200" src="assets/img/bg/contact-bg.jpg" alt="contact bg">
+                    <img class="mh-200" src="assets/img/bg/work-bg.jpg" alt="contact bg">
                 </div>
                 <div class="ms-bg-2 ms-contact-map-space">
                     <div class="container">
@@ -100,7 +100,7 @@ include "header.php";
                             <div class="ms-contact-map-item-wrapper">
                                 <div class="ms-contact-map-item ms-bg-6">
                                     <div class="ms-contact-flag mb-5">
-                                        <img src="assets/img/contact/flag-01.jpg" alt="flag image">
+                                        <img src="assets/img/function-brand/function-brand-01.png" alt="flag image">
                                     </div>
                                     <h3 class="ms-title3 white-text mb-40">United state of america</h3>
                                     <div class="ms-contact-map-content ms-footer2-contact border-0">
@@ -121,7 +121,7 @@ include "header.php";
                             <div class="ms-contact-map-item-wrapper">
                                 <div class="ms-contact-map-item ms-bg-6">
                                     <div class="ms-contact-flag mb-5">
-                                        <img src="assets/img/contact/flag-02.jpg" alt="flag image">
+                                        <img src="assets/img/function-brand/function-brand-02.png" alt="flag image">
                                     </div>
                                     <h3 class="ms-title3 white-text mb-40">Singapure</h3>
                                     <div class="ms-contact-map-content ms-footer2-contact border-0">
@@ -142,7 +142,7 @@ include "header.php";
                             <div class="ms-contact-map-item-wrapper">
                                 <div class="ms-contact-map-item ms-bg-6">
                                     <div class="ms-contact-flag mb-5">
-                                        <img src="assets/img/contact/flag-03.jpg" alt="flag image">
+                                        <img src="assets/img/function-brand/function-brand-03.png" alt="flag image">
                                     </div>
                                     <h3 class="ms-title3 white-text mb-40">South Africa</h3>
                                     <div class="ms-contact-map-content ms-footer2-contact border-0">
@@ -163,7 +163,7 @@ include "header.php";
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- Contact Map Area End Here  -->
 
 

@@ -20,7 +20,7 @@ include "header.php";
             <!-- login Area Start Here  -->
             <section class="ms-login-area pb-50 pt-130">
                 <div class="container">
-                    <div class="ms-maxw-510 mx-auto">
+                    <div class=" mx-auto" style="max-width: 810px;">
                         <div class="ms-login-wrap text-center ms-login-space ms-bg-2">
                             <h3 class="ms-title4 mb-50">Create Your account</h3>
                             <form>

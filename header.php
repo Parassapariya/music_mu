@@ -5,6 +5,7 @@
 session_start();
 ?>
 <!-- Mirrored from html.topylo.com/musicly-prev/musicly/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 05:46:07 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -73,48 +74,24 @@ session_start();
                         </div>
                     </div>
                     <div class="offcanvas__user mb-30 d-xxl-none">
-                        <?php 
-                         if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-                        ?>
-                        <div class="user__acount">
-                            <span>
-                                <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
-                            </span>
-                            <div class="user__name-mail">
-                                <h4 class="user__name"><a href="javascript:void(0)"><?php
-                                if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-                                    echo "No Login";
-                                } else {
-                                   
-                                   echo $_SESSION['username'];
-                                }
-                                
-                                ?></a></h4>
+                        
+                            <div class="user__acount">
+                                <span>
+                                    <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
+                                </span>
+                                <div class="user__name-mail">
+                                    <h4 class="user__name"><a href="javascript:void(0)"><?php
+                                                                                        if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                                                                                            echo "No Login";
+                                                                                        } else {
+
+                                                                                            echo $_SESSION['username'];
+                                                                                        }
+
+                                                                                        ?></a></h4>
+                                </div>
                             </div>
-                        </div>
-                        <?php 
-                         }
-                        else{
-                            ?>
-                             <div class="user__acount">
-                            <span>
-                                <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
-                            </span>
-                            <div class="user__name-mail">
-                                <h4 class="user__name"><a href="javascript:void(0)"><?php
-                                if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-                                    echo "No Login";
-                                } else {
-                                   
-                                   echo $_SESSION['username'];
-                                }
-                                
-                                ?></a></h4>
-                            </div>
-                        </div>
-                            <?php
-                        }
-                        ?>
+                       
                     </div>
                     <div class="offcanvas__search mb-30">
                         <form action="#">
@@ -125,7 +102,7 @@ session_start();
                     <div class="hr-1 mt-30 mb-30 d-xl-block"></div>
                     <div class="mobile-menu2 fix mb-30  d-xl-block"></div>
                     <div class="hr-1 mt-30 mb-30 d-xl-block"></div>
-                    
+
                 </div>
             </div>
         </div>
@@ -222,10 +199,21 @@ session_start();
                                 <span class="ms-dot-menu-text">Menu</span>
                             </div>
                         </div>
-                        
-                        <div class="ms-header2-profile ml-20">
-                            <a class="ms-profile-btn" href="login.php"><i class="flaticon-user"></i></a>
-                        </div>
+                        <?php
+                        if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                        ?>
+                            <div class="ms-header2-profile ml-20">
+                                <a class="ms-profile-btn " href="login.php"><i class="flaticon-user"></i></a>
+                            </div>
+                        <?php
+                        } else {
+                        ?>
+                            <div class="ms-header2-profile ml-20">
+                                <a class="ms-profile-btn ms-model2-show" href="#"><i class="flaticon-user"></i></a>
+                            </div>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="ms-header2-item d-none">
@@ -247,17 +235,21 @@ session_start();
                                             <li><a href="playlist.php">Playlist</a></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="event.php">Event</a>
                                     </li>
                                     <li>
                                         <a href="Collaboration.php">Collaboration</a>
                                     </li>
-                                      
-                                  
+
+
                                     <li>
                                         <a href="contact.php"> Help Center</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="chat.php"> Chat With Musicly</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -266,7 +258,7 @@ session_start();
                                 <button type="button" class="hamburger-btn offcanvas-open-btn">
                                     <span>01</span>
                                     <span>01</span>
-                                    <span>01</span>     
+                                    <span>01</span>
                                 </button>
                             </div>
                         </div>
@@ -275,5 +267,126 @@ session_start();
             </div>
         </div>
     </header>
-    <!-- Header area end -->
+    <div class="modal fade ms-model1 zindex-99999" id="ms-model2">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="ms-product-modal-wrapper p-relative">
+                        <button type="button" class="ms-model-close ms-pclose-btn "><i
+                                class="fa-sharp fa-solid fa-xmark"></i></button>
 
+                        <div class="container" style="margin-top:100px ;">
+                            <section class="ms-team-details-area fix pb-80">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-8">
+                                            <div class="ms-team-img-details " style="height: 200px; width:auto;">
+                                                <img src="temp/assets/img/popular/popular-04.png" alt="team image">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-12">
+                                            <div class="ms-team-item-details mb-50">
+                                                <h4 class="ms-team-role mb-30">Paras Sapariya</h4>
+                                                <p>Given the legendarily debauched life of the Rolling Stones guitarist, it’s a
+                                                    wonder that he can remember enough of it to fill a book.</p>
+                                                <form action="logout.php" method="POST">
+                                                    <span><input type="submit" class="btn btn-primary play-button" value="Logout"></span>
+                                                </form>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade ms-model1 zindex-99999" id="ms-model">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="ms-product-modal-wrapper p-relative">
+                        <button type="button" class="ms-model-close ms-pclose-btn "><i
+                                class="fa-sharp fa-solid fa-xmark"></i></button>
+
+                        <div class="container" style="margin-top:100px ;">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="ms-product-table-wrap mb-60">
+                                        <div class="ms-product-table mb-50">
+                                            <table class="table table-striped table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Title</th>
+                                                        <th>Album</th>
+                                                        <th>Date added</th>
+                                                        <th>Duration</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="ms-product-name-flex"><a href="shop-details.html">
+                                                                <img src="assets/img/playlist/barish.jpg" alt="product">
+                                                                <h6 class="ms-product-title">Barrishein</h6>
+                                                            </a>
+                                                        </td>
+                                                        <td>Barrishein</td>
+                                                        <td>March 22, 2023</td>
+                                                        <td>3 : 27</td>
+                                                        <td>
+                                                            <a class="ms-table-action" href="#"><i class="flaticon-bin"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="ms-product-name-flex"><a href="shop-details.html">
+                                                                <img src="assets/img/playlist/kinnasona.jpg" alt="product">
+                                                                <h6 class="ms-product-title">Kinna Sona</h6>
+                                                            </a>
+                                                        </td>
+                                                        <td>Kinna Sona</td>
+                                                        <td>March 23, 2023</td>
+                                                        <td>2 : 53</td>
+                                                        <td>
+
+
+                                                            <a class="ms-table-action" href="#"><i class="flaticon-bin"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="ms-product-name-flex"><a href="shop-details.html">
+                                                                <img src="assets/img/playlist/khoobshurat.jpg" alt="product">
+                                                                <h6 class="ms-product-title">Khoobsurat</h6>
+                                                            </a>
+                                                        </td>
+                                                        <td>Khoobsurat</td>
+                                                        <td>March 24, 2023</td>
+                                                        <td>3 : 40</td>
+                                                        <td>
+
+
+                                                            <a class="ms-table-action" href="#"><i class="flaticon-bin"></i></a>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header area end -->
