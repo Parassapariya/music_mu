@@ -1,7 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-
+<?php
+session_start();
+?>
 <!-- Mirrored from html.topylo.com/musicly-prev/musicly/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 05:46:07 GMT -->
 <head>
     <meta charset="utf-8">
@@ -71,6 +73,9 @@
                         </div>
                     </div>
                     <div class="offcanvas__user mb-30 d-xxl-none">
+                        <?php 
+                         if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                        ?>
                         <div class="user__acount">
                             <span>
                                 <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
@@ -78,15 +83,38 @@
                             <div class="user__name-mail">
                                 <h4 class="user__name"><a href="javascript:void(0)"><?php
                                 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-                                   echo $_SESSION['username'];
+                                    echo "No Login";
                                 } else {
-                                   echo "No Login";
+                                   
+                                   echo $_SESSION['username'];
                                 }
                                 
                                 ?></a></h4>
-                                <p class="user__mail"><a href="https://html.topylo.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="68020700061b0706281f0d0a05090104460b0705">[email&#160;protected]</a></p>
                             </div>
                         </div>
+                        <?php 
+                         }
+                        else{
+                            ?>
+                             <div class="user__acount">
+                            <span>
+                                <a href="javascript:void(0)"><i class="flaticon-user"></i></a>
+                            </span>
+                            <div class="user__name-mail">
+                                <h4 class="user__name"><a href="javascript:void(0)"><?php
+                                if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+                                    echo "No Login";
+                                } else {
+                                   
+                                   echo $_SESSION['username'];
+                                }
+                                
+                                ?></a></h4>
+                            </div>
+                        </div>
+                            <?php
+                        }
+                        ?>
                     </div>
                     <div class="offcanvas__search mb-30">
                         <form action="#">

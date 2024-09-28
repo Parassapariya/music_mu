@@ -5,7 +5,7 @@ session_start();
 
 // Hardcoded username and password (static credentials)
 $valid_username = "paras@gmail.com";
-$valid_password = "1234";
+$valid_password = "ps1234";
 
 // Check if form was submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

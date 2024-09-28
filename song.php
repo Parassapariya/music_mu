@@ -43,46 +43,12 @@ include "header.php";
                                         bands book up early!
                                     </p>
                                     <div class="ms-genres-search">
-                                        <div class="ms-banner__form two">
-                                            <form action="#">
-                                                <div class="ms-banner__from-inner two ms-bg-2">
-                                                    <div class="ms-banner__form-select ms-nice-select">
-                                                        <select>
-                                                            <option value="1" selected disabled>What are you
-                                                                looking for?</option>
-                                                            <option value="2">Singers</option>
-                                                            <option value="3">Bands & Group</option>
-                                                            <option value="4">Tributes</option>
-                                                            <option value="5">Solo Musicians</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="ms-banner__form-select ms-nice-select">
-                                                        <select>
-                                                            <option value="1" selected disabled>When is your
-                                                                event?</option>
-                                                            <option value="2">This Week</option>
-                                                            <option value="3">Next Week</option>
-                                                            <option value="4">This Month</option>
-                                                            <option value="4">Next Month</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="ms-banner__form-select ms-nice-select ms-border-none">
-                                                        <select>
-                                                            <option value="1" selected disabled>Where is your
-                                                                event?</option>
-                                                            <option value="2">In Apartment</option>
-                                                            <option value="3">In a Hall</option>
-                                                            <option value="3">In a Resort</option>
-                                                            <option value="3">In an Open Field</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="banner__form-button">
-                                                        <button class="ms-white-bg"><i class="flaticon-loupe"></i> Find
-                                                            Acts</button>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
+                                    <div class="offcanvas__search mb-30">
+                        <form action="#">
+                            <input type="text" placeholder="Search Here">
+                            <button type="submit"><i class="far fa-search"></i></button>
+                        </form>
+                    </div>
                                     </div>
                                 </div>
                             </div>

@@ -138,6 +138,9 @@
     <script src="assets/app/js/jplayer.playlist.js"></script>
     <script src="assets/app/js/settings.js"></script>
     <script src="assets/app/js/main.js"></script>
+    <script>
+    
+    </script>
 </body>
 
 
